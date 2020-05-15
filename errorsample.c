@@ -9,5 +9,6 @@ int main(void)
 	pszData = (char*)malloc(sizeof(szBuffer) * 12);
 	memcpy(pszData, szBuffer, 12);
 	puts(pszData);
+	free(pszData);
 	return 0;
 }
